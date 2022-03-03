@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.login{
+    width: 100%;
+    height: 100vh;
+}
+.login .hero{
+    margin: 0 !important;
+}
+.login .login-img{
+    padding: 50px 0px;
+    height: 100vh;
+    background: url('../img/portfolio-2.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login .login-img h2{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.login .login-img p{
+    text-align: center;
+    font-size: 1.15em;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.login .login-info{
+    padding: 50px 200px;
+    height: 100vh;
+}
+.login .login-info h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    color: #187b18;
+}
+
+form input[type="email"], input[type="password"]{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin: -10px 0px;
+
+}
+
+.label-email{
+    position: relative;
+    left: 0px;
+    top: 60px;
+    width: 100%;
+    padding: 20px 10px;
+    margin-bottom: 17px;
+    transition: all .5s ease-in-out;
+    font-size: 1.5em;
+}
+.label-senha{
+    position: relative;
+    left: 0px;
+    top: 60px;
+    width: 100%;
+    padding: 20px 10px;
+    margin-bottom: 17px;
+    transition: all .5s ease-in-out;
+    font-size: 1.5em;
+}
+
+.label-email-active{
+    position: relative !important;
+    left: 0px;
+    top: 20px;
+    width: 100%;
+    padding: 20px 10px;
+    margin-bottom: 17px;
+    transition: all .5s ease-in-out;
+    font-size: 1.5em;
+}
+.label-senha-active{
+    position: relative !important; 
+    left: 0px;
+    top: 20px;
+    width: 100%;
+    padding: 20px 10px;
+    margin-bottom: 17px;
+    transition: all .5s ease-in-out;
+    font-size: 1.5em;
+}
